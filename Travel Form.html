@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="In this website you can book tickets for selected places.">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Travel Form</title>
+</head>
+<body>
+    <div>
+        <h2>Trip n Tour</h2>
+        <input type="text" placeholder="Full Name">
+    </div>
+    <br>
+    <div>
+        <select name="places" id="places">
+            <option value="no place"> Select Your Place</option>
+            <option value="dalhousie"> Dalhousie</option>
+            <option value="dharamshala"> Dharamshala</option>
+            <option value="chandigarh"> Chandigarh</option>
+            <option value="new delhi"> New Delhi</option>
+            <option value="pune"> Pune</option>
+            <option value="ooty"> Ooty</option>
+            <option value="kerala"> Kerala</option>
+            <option value="goa"> Goa</option>
+            <option value="andaman n nicobar"> Andaman n Nicobar</option>
+            <option value="lakshwadeep"> Lakshwadeep </option>
+            <option value="mumbai"> Mumbai</option>
+        </select>
+    </div>
+    <div>
+        <label for="senior Citizen">
+        <input type="radio" value="senior citizen" id="senior citizen" name="citizen">  60-80
+        </label>
+        <label for="above 80">
+            <input type="radio" value="above 80" id="above 80" name="citizen"> Above 80
+        </label>
+        <label for="under 18">
+            <input type="radio" value="under 18" id="under 18" name="citizen"> Under 18
+        </label>
+        <label for="18-60">
+            <input type="radio" value="18-60" id="18-60" name="citizen"> 18-60
+        </label>
+        <br>
+        <input type="checkbox" value="breakfast"> Breakfast
+        <input type="checkbox" value="lunch"> Lunch
+        <input type="checkbox" value="dinner"> Dinner
+    </div>
+    <div>
+        <input type="email" placeholder="Email Address" pattern="@gmail.com">
+    </div>
+    <div>
+        <label for="phone">
+        <input type="tel" pattern="[0-9]" required id="phone"> Contact No.
+    </label>
+    </div>
+     <div>
+         <select name="mode of travel" id="maode of travel">
+             <option value="select"> Select Mode of Travel</option>
+             <option value="railways"> Railways</option>
+             <option value="airways"> Airways</option>
+             <option value="waterways"> Waterways(Only for travelling in Islands)</option>
+         </select>
+     </div>   
+    <div>
+        <label for="date">
+            <input type="datetime-local" id="date" name="date for booking"> Book Your Slot
+        </label>
+    </div>
+    <div>
+        <label for="verification">
+            <input type="file" name="aadhar card" id="verification" accept=".pdf">Aadhar Card 
+        </label>
+    </div>
+    <input type="submit">
+</body>
+</html>

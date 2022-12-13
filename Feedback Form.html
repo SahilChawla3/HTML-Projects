@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>Prabhat Hotel</h1>
+    <p>This is feedback form of our hotel its a request to customer kindly fill this form and tell us that do we require any improvement.</p>
+    <form action="">
+    <hr>
+    <div>
+        <input type="email" name="youremail" placeholder="Enter Email">
+    </div>
+    <hr>
+    <div>
+        <p>How was food of our Hotel?</p>
+        <label for="ourfood">
+           Excellent <input type="radio" name="food" id="ourfood">
+        </label>
+        <br>
+        <label for="vgoodfood">
+            Very Good <input type="radio" name="food" id="vgoodfood">
+        </label>
+        <br> 
+        <label for="goodfood">
+            Good <input type="radio" name="food" id="goodfood">
+        </label> 
+    </div>
+    <hr>
+    <div>
+        <p>How was quality of rooms?</p>
+        <textarea name="room"  cols="30" rows="10"></textarea>
+    </div>
+    <hr>
+    <div>
+        <p>How was our services? Give rating</p>
+        1.<input type="radio" name="services">
+        2.<input type="radio" name="services">
+        3.<input type="radio" name="services">
+        4.<input type="radio" name="services">
+        5.<input type="radio" name="services">
+    </div>
+    <hr>
+    <div>
+        <p>Any Suggestion for improvement?</p>
+        <textarea name="improvement" cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
